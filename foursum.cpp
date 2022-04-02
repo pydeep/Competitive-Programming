@@ -37,8 +37,8 @@ vector<vector<int>> foursum(vector<int> &nums, int target) {
 
 int main() {
 	vector<int> v1 = {-2,-1,-1,1,1,2,2,8};
-	int target_check = 0;
-	vector<vector<int>> res = foursum(v1, target);
+	int target_check1 = 0;
+	vector<vector<int>> res1 = foursum(v1, target);
 	cout<<"\n";
 	for(auto &resfor : res) {
 		for(auto res1 : resfor) {
