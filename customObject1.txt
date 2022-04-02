@@ -1,0 +1,3894 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <content>PaymentEditOverride</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Purpose of this object is to store payment information of related objects.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>false</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>false</enableSharing>
+    <enableStreamingApi>false</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Address_1__c</fullName>
+        <description>To store Address 1</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>This field represents Address 1</inlineHelpText>
+        <label>Address 1</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Address_2__c</fullName>
+        <description>To store Address 2</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>This field represents Address 2</inlineHelpText>
+        <label>Address 2</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Address_3__c</fullName>
+        <description>To store Address 3</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>This field represents Address 3</inlineHelpText>
+        <label>Address 3</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Approved_Date__c</fullName>
+        <description>To store the approval date of payment</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>This field represents approval date</inlineHelpText>
+        <label>Approved Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>BS_Date_Billed__c</fullName>
+        <description>To store the latest billing statement date billed.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>BS Date Billed</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>BS_Names__c</fullName>
+        <description>To store the latest billing statements number separated by comma.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>BS Names</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bank_Account_Number__c</fullName>
+        <description>This field will be used to have bank account number for payment records from custom setting.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Bank Account Number</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bank_Name__c</fullName>
+        <description>This field will be used to have bank name from the custom setting for payment records.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Bank Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Card_End_Date__c</fullName>
+        <description>Store end date of credit card</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Card End Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Card_Expiration_Date__c</fullName>
+        <description>Store expiration date of credit card</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Card Expiration Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Card_Issued_Date__c</fullName>
+        <description>Store credit card issued date</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Card Issued Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Card_Number__c</fullName>
+        <description>Store credit card number</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Card Number</label>
+        <length>19</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Card_Security_Code__c</fullName>
+        <description>Store cvv number of credit card</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Card Security Code</label>
+        <length>3</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Card_Status__c</fullName>
+        <description>To maintain card status</description>
+        <externalId>false</externalId>
+        <label>Card Status</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Active</fullName>
+                    <default>false</default>
+                    <label>Active</label>
+                </value>
+                <value>
+                    <fullName>Deactivated</fullName>
+                    <default>false</default>
+                    <label>Deactivated</label>
+                </value>
+                <value>
+                    <fullName>Expired</fullName>
+                    <default>false</default>
+                    <label>Expired</label>
+                </value>
+                <value>
+                    <fullName>Reconciled</fullName>
+                    <default>false</default>
+                    <label>Reconciled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Case_Payee__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>This is used to link the payment record to case payee</description>
+        <externalId>false</externalId>
+        <label>Case Payee</label>
+        <referenceTo>Case_Payee__c</referenceTo>
+        <relationshipLabel>Payments</relationshipLabel>
+        <relationshipName>Payments</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Case__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <description>Lookup field for case</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Lookup of Case on payment</inlineHelpText>
+        <label>Case</label>
+        <referenceTo>Case</referenceTo>
+        <relationshipLabel>Payments</relationshipLabel>
+        <relationshipName>Payments</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Cashed_Check_Date__c</fullName>
+        <description>Cashed Check Date of the check associated with the case payee</description>
+        <externalId>false</externalId>
+        <formula>Case_Payee__r.Check_Number__r.Date_Cashed__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Cashed Check Date of the check associated with the case payee</inlineHelpText>
+        <label>Cashed Check Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Check_Number__c</fullName>
+        <description>Store the value of check number</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Check Number</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>City__c</fullName>
+        <description>To store the City</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>This field represents the City</inlineHelpText>
+        <label>City</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Claim_Payment_Details__c</fullName>
+        <description>To store the claims details about invoice, case and agreement</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>This field represents the claim payment details</inlineHelpText>
+        <label>Claim Payment Details</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Classification_Code__c</fullName>
+        <description>Classification code of the selling dealer.</description>
+        <externalId>false</externalId>
+        <formula>Selling_Dealer__r.Classification_Code__c</formula>
+        <label>Classification Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Client_Program_ID__c</fullName>
+        <description>used to hold client program id</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Client Program ID</label>
+        <length>15</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Client_Program_Name__c</fullName>
+        <description>used to hold client program name</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Client Program Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Client__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>This field is used for US BP records to associate payment with client.</description>
+        <externalId>false</externalId>
+        <label>Payee Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Payments</relationshipLabel>
+        <relationshipName>Payments</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Country__c</fullName>
+        <description>Store country value for payment record.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Country</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Date_Cashed__c</fullName>
+        <description>This field will have date when the payment is cashed.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Date Cashed</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Date_Voided__c</fullName>
+        <description>Date when a payment record is voided</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Date on which a Payment is voided</inlineHelpText>
+        <label>Date Voided</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Deposit_Amount__c</fullName>
+        <description>To store amount which come as a credit or refund</description>
+        <externalId>false</externalId>
+        <label>Deposit Amount</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Deposit_Reason__c</fullName>
+        <description>To identify the reason of deposit amount</description>
+        <externalId>false</externalId>
+        <label>Deposit Reason</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Credit Card Refund</fullName>
+                    <default>false</default>
+                    <label>Credit Card Refund</label>
+                </value>
+                <value>
+                    <fullName>Payment was made payable to the wrong payee.</fullName>
+                    <default>false</default>
+                    <label>Payment was made payable to the wrong payee.</label>
+                </value>
+                <value>
+                    <fullName>Duplicate claim payment.</fullName>
+                    <default>false</default>
+                    <label>Duplicate claim payment.</label>
+                </value>
+                <value>
+                    <fullName>Wrong amount paid.</fullName>
+                    <default>false</default>
+                    <label>Wrong amount paid.</label>
+                </value>
+                <value>
+                    <fullName>Claim has been over paid.</fullName>
+                    <default>false</default>
+                    <label>Claim has been over paid.</label>
+                </value>
+                <value>
+                    <fullName>Paid in error</fullName>
+                    <default>false</default>
+                    <label>Paid in error</label>
+                </value>
+                <value>
+                    <fullName>Shop refunded claim payment - work not completed to our requirement</fullName>
+                    <default>false</default>
+                    <label>Shop refunded claim payment - work not completed to our requirement</label>
+                </value>
+                <value>
+                    <fullName>Invalid payment</fullName>
+                    <default>false</default>
+                    <label>Invalid payment</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Document_Id__c</fullName>
+        <description>To store Document Id</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>This field represents Document Id</inlineHelpText>
+        <label>Document Id</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Error_Code__c</fullName>
+        <description>Store the value of error code</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Error Code</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Error_Description__c</fullName>
+        <description>Store the value of error description</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Error Description</label>
+        <length>1500</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Group_Payment__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>This field is used to link the payment with related group payment</description>
+        <externalId>false</externalId>
+        <label>Group Payment</label>
+        <referenceTo>Group_Payment__c</referenceTo>
+        <relationshipLabel>Payments</relationshipLabel>
+        <relationshipName>Payments</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Individual_Payee_First_Name__c</fullName>
+        <description>If this Payee is an Individual and not an Account (Dealership, Facility) then we need to reimburse the individual. This will hold the persons First Name which is fed to MR / Billing Systems. A checkbox called &quot;Pay Individual&quot; tells the system to use Account or Fields on this Payee object.</description>
+        <encryptionScheme>ProbabilisticEncryption</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>If this is an individual being paid, the first name of the individual that will appear on the check and the printed mailing envelope.</inlineHelpText>
+        <label>Individual Payee First Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Individual_Payee_Last_Name__c</fullName>
+        <description>If this Payee is an Individual and not an Account (Dealership, Facility) then we need to reimburse the individual. This will hold the persons Last Name which is fed to MR / Billing Systems. A checkbox called &quot;Pay Individual&quot; tells the system to use Account or Fields on this Payee object.</description>
+        <encryptionScheme>ProbabilisticEncryption</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>If this is an individual being paid, the last name of the individual that will appear on the check and the printed mailing envelope. For example &quot;Smith&quot; or &quot;Doe&quot;.</inlineHelpText>
+        <label>Individual Payee Last Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_Reconciled_From_Batch__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Indicates whether or not a record has reconciled through batch</description>
+        <externalId>false</externalId>
+        <label>Is Reconciled From Batch</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Legacy_Created_By__c</fullName>
+        <description>To store the name of user who created the record in Legacy System</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of user who created the record in Legacy System</inlineHelpText>
+        <label>Legacy Created By</label>
+        <length>200</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Legacy_Updated_By__c</fullName>
+        <description>To store the name of user who last updated the record in Legacy System</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of user who last updated the record in Legacy System</inlineHelpText>
+        <label>Legacy Updated By</label>
+        <length>200</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Legacy_Updated_On__c</fullName>
+        <description>To store the date and time when the record was last updated in Legacy System</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>Date and time when the record was last updated in Legacy System</inlineHelpText>
+        <label>Legacy Updated On</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>MerchantCity__c</fullName>
+        <description>Merchant city of Account</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>MerchantCity</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MerchantZip__c</fullName>
+        <description>Zip code of Merchant Account</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>MerchantZip</label>
+        <length>11</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Merchant_Name__c</fullName>
+        <description>Merchant Name</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Merchant Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Paid_Date__c</fullName>
+        <description>Populate the TODAY date when the corresponding Case Payee Status is updated to ‘Paid’</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Paid Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Pay_Individual__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>To store the Pay Individual.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field represents the Pay Individual.</inlineHelpText>
+        <label>Pay Individual</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Payee_Name__c</fullName>
+        <description>Payee Name</description>
+        <externalId>false</externalId>
+        <formula>Client__r.Name</formula>
+        <label>Payee Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Payee_Number__c</fullName>
+        <description>Payee Number</description>
+        <externalId>false</externalId>
+        <formula>Client__r.Payee_Number__c</formula>
+        <label>Payee Number</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Payment_Amount__c</fullName>
+        <description>Store the value of Payment Amount</description>
+        <externalId>false</externalId>
+        <label>Payment Amount</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Payment_Configuration_Name__c</fullName>
+        <description>This  field will be used to have payment configuration name for payment records from custom setting.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Payment Configuration Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Payment_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>This field will contain JPMC payment ID.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Payment ID</label>
+        <length>15</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Payment_Issue_Date__c</fullName>
+        <description>This field will contain payment issue date.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Payment Issue Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Payment_Method__c</fullName>
+        <description>Store the type of payment method used</description>
+        <externalId>false</externalId>
+        <label>Payment Method</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>CCD</fullName>
+                    <default>false</default>
+                    <label>CCD</label>
+                </value>
+                <value>
+                    <fullName>ACH</fullName>
+                    <default>false</default>
+                    <label>ACH</label>
+                </value>
+                <value>
+                    <fullName>CHK</fullName>
+                    <default>false</default>
+                    <label>CHK</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Payment_Status_Date__c</fullName>
+        <description>This field will contain payment status date.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Payment Status Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Pending_Reconciliation_Reason__c</fullName>
+        <description>To store reason of pending reconciliation of payment</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Pending Reconciliation Reason</label>
+        <length>300</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Recipient_Name__c</fullName>
+        <description>To store the Recipient Name</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>This field represents the Recipient Name</inlineHelpText>
+        <label>Recipient Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Reconciliation_Type__c</fullName>
+        <description>To identify the reconciliation type</description>
+        <externalId>false</externalId>
+        <label>Reconciliation Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Automatically</fullName>
+                    <default>false</default>
+                    <label>Automatically</label>
+                </value>
+                <value>
+                    <fullName>Manual</fullName>
+                    <default>false</default>
+                    <label>Manual</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Selling_Dealer_Name__c</fullName>
+        <description>This field is used for US BP records to show selling dealer name.</description>
+        <externalId>false</externalId>
+        <formula>Selling_Dealer__r.Name</formula>
+        <label>Selling Dealer Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Selling_Dealer_Number__c</fullName>
+        <description>This field is used for US BP records to show selling dealer number.</description>
+        <externalId>false</externalId>
+        <formula>Selling_Dealer__r.AccountNumber</formula>
+        <label>Selling Dealer Number</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Selling_Dealer__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <description>This field is used for US BP records to associate payment with selling dealer.</description>
+        <externalId>false</externalId>
+        <label>Selling Dealer</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Payments (Selling Dealer)</relationshipLabel>
+        <relationshipName>Payments1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Source_System__c</fullName>
+        <description>To store the Source System</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>This field represents Source System</inlineHelpText>
+        <label>Source System</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Source__c</fullName>
+        <description>Tells whether the payment record is for adhoc case payee or not.</description>
+        <externalId>false</externalId>
+        <label>Source</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Ad-Hoc</fullName>
+                    <default>false</default>
+                    <label>Ad-Hoc</label>
+                </value>
+                <value>
+                    <fullName>Billing Statement</fullName>
+                    <default>false</default>
+                    <label>Billing Statement</label>
+                </value>
+                <value>
+                    <fullName>Non Ad-Hoc</fullName>
+                    <default>false</default>
+                    <label>Non Ad-Hoc</label>
+                </value>
+                <value>
+                    <fullName>RD Transaction</fullName>
+                    <default>false</default>
+                    <label>RD Transaction</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Special_Id__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>To store the Special ID</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>true</externalId>
+        <inlineHelpText>This field represents Special ID</inlineHelpText>
+        <label>Special Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>State__c</fullName>
+        <description>To store the value of State</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>This field represents the State</inlineHelpText>
+        <label>State</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <description>Store the value of payment status</description>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Payment_Method__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Closed - Manual</fullName>
+                    <default>false</default>
+                    <label>Closed - Manual</label>
+                </value>
+                <value>
+                    <fullName>Error</fullName>
+                    <default>false</default>
+                    <label>Error</label>
+                </value>
+                <value>
+                    <fullName>Sent</fullName>
+                    <default>false</default>
+                    <label>Sent</label>
+                </value>
+                <value>
+                    <fullName>Pending</fullName>
+                    <default>false</default>
+                    <label>Pending</label>
+                </value>
+                <value>
+                    <fullName>Accepted</fullName>
+                    <default>false</default>
+                    <label>Accepted</label>
+                </value>
+                <value>
+                    <fullName>ACH Initiated</fullName>
+                    <default>false</default>
+                    <label>ACH Initiated</label>
+                </value>
+                <value>
+                    <fullName>ACH Returned</fullName>
+                    <default>false</default>
+                    <label>ACH Returned</label>
+                </value>
+                <value>
+                    <fullName>Declined</fullName>
+                    <default>false</default>
+                    <label>Declined</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+                <value>
+                    <fullName>Edit - Cancelled</fullName>
+                    <default>false</default>
+                    <label>Edit - Cancelled</label>
+                </value>
+                <value>
+                    <fullName>Check Printed</fullName>
+                    <default>false</default>
+                    <label>Check Printed</label>
+                </value>
+                <value>
+                    <fullName>Void</fullName>
+                    <default>false</default>
+                    <label>Void</label>
+                </value>
+                <value>
+                    <fullName>ACH Authorized</fullName>
+                    <default>false</default>
+                    <label>ACH Authorized</label>
+                </value>
+                <value>
+                    <fullName>Closed - Paid</fullName>
+                    <default>false</default>
+                    <label>Closed - Paid</label>
+                </value>
+                <value>
+                    <fullName>Draft</fullName>
+                    <default>false</default>
+                    <label>Draft</label>
+                </value>
+                <value>
+                    <fullName>Pending Reconciliation</fullName>
+                    <default>false</default>
+                    <label>Pending Reconciliation</label>
+                </value>
+                <value>
+                    <fullName>Payment Issued</fullName>
+                    <default>false</default>
+                    <label>Payment Issued</label>
+                </value>
+                <value>
+                    <fullName>Closed - Attempted Payment</fullName>
+                    <default>false</default>
+                    <label>Closed - Attempted Payment</label>
+                </value>
+                <value>
+                    <fullName>Expired</fullName>
+                    <default>false</default>
+                    <label>Expired</label>
+                </value>
+                <value>
+                    <fullName>Pending Deposit Reconciliation</fullName>
+                    <default>false</default>
+                    <label>Pending Deposit Reconciliation</label>
+                </value>
+                <value>
+                    <fullName>Deactivated</fullName>
+                    <default>false</default>
+                    <label>Deactivated</label>
+                </value>
+                <value>
+                    <fullName>Unmark for Payment</fullName>
+                    <default>false</default>
+                    <label>Unmark for Payment</label>
+                </value>
+                <value>
+                    <fullName>In Process</fullName>
+                    <default>false</default>
+                    <label>In Process</label>
+                </value>
+                <value>
+                    <fullName>Dispute/Refund Requested</fullName>
+                    <default>false</default>
+                    <label>Dispute/Refund Requested</label>
+                </value>
+                <value>
+                    <fullName>Dispute/Refund Declined</fullName>
+                    <default>false</default>
+                    <label>Dispute/Refund Declined</label>
+                </value>
+                <value>
+                    <fullName>Dispute/Refund Accepted</fullName>
+                    <default>false</default>
+                    <label>Dispute/Refund Accepted</label>
+                </value>
+                <value>
+                    <fullName>Closed - Refunded</fullName>
+                    <default>false</default>
+                    <label>Closed - Refunded</label>
+                </value>
+                <value>
+                    <fullName>Check Initiated</fullName>
+                    <default>false</default>
+                    <label>Check Initiated</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+                <value>
+                    <fullName>Director Approval Pending</fullName>
+                    <default>false</default>
+                    <label>Director Approval Pending</label>
+                </value>
+                <value>
+                    <fullName>Manager Approval Pending</fullName>
+                    <default>false</default>
+                    <label>Manager Approval Pending</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>CCD</controllingFieldValue>
+                <valueName>Closed - Manual</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CCD</controllingFieldValue>
+                <valueName>Closed - Paid</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CCD</controllingFieldValue>
+                <controllingFieldValue>ACH</controllingFieldValue>
+                <controllingFieldValue>CHK</controllingFieldValue>
+                <valueName>Draft</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CCD</controllingFieldValue>
+                <valueName>Pending Reconciliation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CCD</controllingFieldValue>
+                <valueName>Payment Issued</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CCD</controllingFieldValue>
+                <valueName>Closed - Attempted Payment</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CCD</controllingFieldValue>
+                <valueName>Pending Deposit Reconciliation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CCD</controllingFieldValue>
+                <valueName>Deactivated</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CCD</controllingFieldValue>
+                <valueName>Dispute/Refund Requested</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CCD</controllingFieldValue>
+                <valueName>Dispute/Refund Declined</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CCD</controllingFieldValue>
+                <valueName>Dispute/Refund Accepted</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CCD</controllingFieldValue>
+                <valueName>Closed - Refunded</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ACH</controllingFieldValue>
+                <valueName>Error</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ACH</controllingFieldValue>
+                <controllingFieldValue>CHK</controllingFieldValue>
+                <valueName>Sent</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ACH</controllingFieldValue>
+                <valueName>Pending</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ACH</controllingFieldValue>
+                <valueName>Accepted</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ACH</controllingFieldValue>
+                <valueName>ACH Initiated</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ACH</controllingFieldValue>
+                <valueName>ACH Returned</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ACH</controllingFieldValue>
+                <valueName>Declined</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ACH</controllingFieldValue>
+                <valueName>Cancelled</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ACH</controllingFieldValue>
+                <valueName>Edit - Cancelled</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ACH</controllingFieldValue>
+                <valueName>Check Printed</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ACH</controllingFieldValue>
+                <valueName>ACH Authorized</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ACH</controllingFieldValue>
+                <valueName>Expired</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ACH</controllingFieldValue>
+                <valueName>Unmark for Payment</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ACH</controllingFieldValue>
+                <valueName>In Process</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ACH</controllingFieldValue>
+                <controllingFieldValue>CHK</controllingFieldValue>
+                <valueName>Check Initiated</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ACH</controllingFieldValue>
+                <controllingFieldValue>CHK</controllingFieldValue>
+                <valueName>Rejected</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ACH</controllingFieldValue>
+                <controllingFieldValue>CHK</controllingFieldValue>
+                <valueName>Director Approval Pending</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ACH</controllingFieldValue>
+                <controllingFieldValue>CHK</controllingFieldValue>
+                <valueName>Manager Approval Pending</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ACH</controllingFieldValue>
+                <controllingFieldValue>CHK</controllingFieldValue>
+                <valueName>Approved</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CHK</controllingFieldValue>
+                <valueName>Void</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Total_Posted_Amount__c</fullName>
+        <description>Store the value of total posted amount</description>
+        <externalId>false</externalId>
+        <label>Total Posted Amount</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <description>This field will distinguish for which type of refund user has created payment record for US Auto.</description>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Dealer Refund</fullName>
+                    <default>false</default>
+                    <label>Dealer Refund</label>
+                </value>
+                <value>
+                    <fullName>Customer Refund</fullName>
+                    <default>false</default>
+                    <label>Customer Refund</label>
+                </value>
+                <value>
+                    <fullName>Third Party</fullName>
+                    <default>false</default>
+                    <label>Third Party</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Upper_Tolerance__c</fullName>
+        <description>Store the value of Upper Tolerance</description>
+        <externalId>false</externalId>
+        <label>Upper Tolerance</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Zip_Code__c</fullName>
+        <description>To store the Zip Code</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>This field represents the Zip Code</inlineHelpText>
+        <label>Zip Code</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Payment</label>
+    <listViews>
+        <fullName>ACH_Payments_with_Errors</fullName>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>Payment_Amount__c</columns>
+        <columns>Error_Code__c</columns>
+        <columns>Error_Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Error_Code__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <filters>
+            <field>Payment_Method__c</field>
+            <operation>equals</operation>
+            <value>ACH</value>
+        </filters>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Payment__c.US_Auto</value>
+        </filters>
+        <label>ACH Payments with Errors</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>ACH_and_CHK_Client_Fee_Payee_Payments</fullName>
+        <booleanFilter>1 AND 2 AND 3</booleanFilter>
+        <columns>NAME</columns>
+        <columns>Payment_Amount__c</columns>
+        <columns>Source__c</columns>
+        <columns>Payee_Name__c</columns>
+        <columns>Payee_Number__c</columns>
+        <columns>Selling_Dealer_Name__c</columns>
+        <columns>Selling_Dealer_Number__c</columns>
+        <columns>Classification_Code__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>Payment_Method__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Draft</value>
+        </filters>
+        <filters>
+            <field>Payment_Method__c</field>
+            <operation>equals</operation>
+            <value>ACH,CHK</value>
+        </filters>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Payment__c.NA_Auto_Client_Fee_Payee</value>
+        </filters>
+        <label>ACH and CHK CF Draft Payments</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Client_Fee_Approver_Supervisor</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>Client_Fee_Approver_Director_Payment</fullName>
+        <columns>NAME</columns>
+        <filterScope>Queue</filterScope>
+        <label>Client Fee Approver-Director</label>
+        <language>en_US</language>
+        <queue>Client_Fee_Approver_Director</queue>
+        <sharedTo>
+            <group>AdminGroup</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Client_Fee_Approver_Manager_Payment</fullName>
+        <columns>NAME</columns>
+        <filterScope>Queue</filterScope>
+        <label>Client Fee Approver-Manager</label>
+        <language>en_US</language>
+        <queue>Client_Fee_Approver_Manager</queue>
+        <sharedTo>
+            <group>AdminGroup</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Client_Fee_Approver_Supervisor_Payment</fullName>
+        <columns>NAME</columns>
+        <filterScope>Queue</filterScope>
+        <label>Client Fee Approver-Supervisor</label>
+        <language>en_US</language>
+        <queue>Client_Fee_Approver_Supervisor</queue>
+        <sharedTo>
+            <group>AdminGroup</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Director_Approval_for_ClientFee_Payments</fullName>
+        <columns>NAME</columns>
+        <columns>Payment_Amount__c</columns>
+        <columns>Source__c</columns>
+        <columns>Payee_Name__c</columns>
+        <columns>Payee_Number__c</columns>
+        <columns>Selling_Dealer_Name__c</columns>
+        <columns>Selling_Dealer_Number__c</columns>
+        <columns>Classification_Code__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>Payment_Method__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Director Approval Pending</value>
+        </filters>
+        <filters>
+            <field>Payment_Method__c</field>
+            <operation>equals</operation>
+            <value>ACH,CHK</value>
+        </filters>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Payment__c.NA_Auto_Client_Fee_Payee</value>
+        </filters>
+        <label>Director Approval for ClientFee Payments</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Client_Fee_Approver_Director</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Manager_Approval_for_ClientFee_Payments</fullName>
+        <columns>NAME</columns>
+        <columns>Payment_Amount__c</columns>
+        <columns>Source__c</columns>
+        <columns>Payee_Name__c</columns>
+        <columns>Payee_Number__c</columns>
+        <columns>Selling_Dealer_Name__c</columns>
+        <columns>Selling_Dealer_Number__c</columns>
+        <columns>Classification_Code__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>Payment_Method__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Manager Approval Pending</value>
+        </filters>
+        <filters>
+            <field>Payment_Method__c</field>
+            <operation>equals</operation>
+            <value>ACH,CHK</value>
+        </filters>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Payment__c.NA_Auto_Client_Fee_Payee</value>
+        </filters>
+        <label>Manager Approval for ClientFee Payments</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Client_Fee_Approver_Manager</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Non_Reconciled_AIZ_Case_Payee</fullName>
+        <columns>NAME</columns>
+        <columns>Case_Payee__c</columns>
+        <columns>Payment_Amount__c</columns>
+        <columns>Total_Posted_Amount__c</columns>
+        <columns>Status__c</columns>
+        <columns>Pending_Reconciliation_Reason__c</columns>
+        <columns>Card_Status__c</columns>
+        <columns>Payee_Name__c</columns>
+        <columns>Merchant_Name__c</columns>
+        <columns>City__c</columns>
+        <columns>MerchantCity__c</columns>
+        <columns>Zip_Code__c</columns>
+        <columns>MerchantZip__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Pending Reconciliation,Pending Deposit Reconciliation</value>
+        </filters>
+        <filters>
+            <field>Payment_Method__c</field>
+            <operation>equals</operation>
+            <value>CCD</value>
+        </filters>
+        <filters>
+            <field>Total_Posted_Amount__c</field>
+            <operation>greaterThan</operation>
+            <value>USD 0</value>
+        </filters>
+        <filters>
+            <field>Case_Payee__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <filters>
+            <field>Bank_Account_Number__c</field>
+            <operation>equals</operation>
+            <value>550391004</value>
+        </filters>
+        <label>Non Reconciled - AIZ Case Payee</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Non_Reconciled_AIZ_Group_Payments</fullName>
+        <columns>NAME</columns>
+        <columns>Group_Payment__c</columns>
+        <columns>Payment_Amount__c</columns>
+        <columns>Total_Posted_Amount__c</columns>
+        <columns>Status__c</columns>
+        <columns>Pending_Reconciliation_Reason__c</columns>
+        <columns>Card_Status__c</columns>
+        <columns>Payee_Name__c</columns>
+        <columns>Merchant_Name__c</columns>
+        <columns>City__c</columns>
+        <columns>MerchantCity__c</columns>
+        <columns>Zip_Code__c</columns>
+        <columns>MerchantZip__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Pending Reconciliation,Pending Deposit Reconciliation</value>
+        </filters>
+        <filters>
+            <field>Payment_Method__c</field>
+            <operation>equals</operation>
+            <value>CCD</value>
+        </filters>
+        <filters>
+            <field>Total_Posted_Amount__c</field>
+            <operation>greaterThan</operation>
+            <value>USD 0</value>
+        </filters>
+        <filters>
+            <field>Group_Payment__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <filters>
+            <field>Bank_Account_Number__c</field>
+            <operation>equals</operation>
+            <value>550391004</value>
+        </filters>
+        <label>Non Reconciled-AIZ Group Payments</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>P-{0000}</displayFormat>
+        <label>Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Payments</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Compliance</fullName>
+        <active>true</active>
+        <description>Record type for Compliance</description>
+        <label>Compliance</label>
+        <picklistValues>
+            <picklist>Card_Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deactivated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Expired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reconciled</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Deposit_Reason__c</picklist>
+            <values>
+                <fullName>Claim has been over paid%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit Card Refund</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Duplicate claim payment%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invalid payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid in error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Payment was made payable to the wrong payee%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shop refunded claim payment - work not completed to our requirement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wrong amount paid%2E</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Payment_Method__c</picklist>
+            <values>
+                <fullName>ACH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CCD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CHK</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reconciliation_Type__c</picklist>
+            <values>
+                <fullName>Automatically</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manual</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Source__c</picklist>
+            <values>
+                <fullName>Ad-Hoc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Ad-Hoc</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>ACH Authorized</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ACH Initiated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ACH Returned</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Check Initiated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Check Printed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Attempted Payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Manual</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Paid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Refunded</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deactivated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dispute%2FRefund Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dispute%2FRefund Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dispute%2FRefund Requested</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Edit - Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Expired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Payment Issued</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Deposit Reconciliation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Reconciliation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unmark for Payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Void</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Customer Refund</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer Refund</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Third Party</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>GAP</fullName>
+        <active>true</active>
+        <description>Record type for GAP</description>
+        <label>GAP</label>
+        <picklistValues>
+            <picklist>Card_Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deactivated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Expired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reconciled</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Deposit_Reason__c</picklist>
+            <values>
+                <fullName>Claim has been over paid%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit Card Refund</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Duplicate claim payment%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invalid payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid in error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Payment was made payable to the wrong payee%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shop refunded claim payment - work not completed to our requirement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wrong amount paid%2E</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Payment_Method__c</picklist>
+            <values>
+                <fullName>ACH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CCD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CHK</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reconciliation_Type__c</picklist>
+            <values>
+                <fullName>Automatically</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manual</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Source__c</picklist>
+            <values>
+                <fullName>Ad-Hoc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Ad-Hoc</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>ACH Authorized</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ACH Initiated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ACH Returned</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Check Initiated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Check Printed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Attempted Payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Manual</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Paid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Refunded</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deactivated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dispute%2FRefund Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dispute%2FRefund Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dispute%2FRefund Requested</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Edit - Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Expired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Payment Issued</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Deposit Reconciliation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Reconciliation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unmark for Payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Void</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Customer Refund</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer Refund</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Third Party</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Mechanical</fullName>
+        <active>true</active>
+        <description>Record type for Mechanical</description>
+        <label>Mechanical</label>
+        <picklistValues>
+            <picklist>Card_Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deactivated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Expired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reconciled</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Deposit_Reason__c</picklist>
+            <values>
+                <fullName>Claim has been over paid%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit Card Refund</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Duplicate claim payment%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invalid payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid in error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Payment was made payable to the wrong payee%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shop refunded claim payment - work not completed to our requirement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wrong amount paid%2E</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Payment_Method__c</picklist>
+            <values>
+                <fullName>ACH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CCD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CHK</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reconciliation_Type__c</picklist>
+            <values>
+                <fullName>Automatically</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manual</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Source__c</picklist>
+            <values>
+                <fullName>Ad-Hoc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Ad-Hoc</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>ACH Authorized</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ACH Initiated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ACH Returned</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Check Initiated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Check Printed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Attempted Payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Manual</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Paid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Refunded</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deactivated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dispute%2FRefund Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dispute%2FRefund Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dispute%2FRefund Requested</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Edit - Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Expired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Payment Issued</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Deposit Reconciliation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Reconciliation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unmark for Payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Void</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Customer Refund</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer Refund</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Third Party</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>NA_Auto_Client_Fee_Payee</fullName>
+        <active>true</active>
+        <description>Record type for NA Auto-Client Fee Payee</description>
+        <label>NA Auto-Client Fee Payee</label>
+        <picklistValues>
+            <picklist>Card_Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deactivated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Expired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reconciled</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Deposit_Reason__c</picklist>
+            <values>
+                <fullName>Claim has been over paid%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit Card Refund</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Duplicate claim payment%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invalid payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid in error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Payment was made payable to the wrong payee%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shop refunded claim payment - work not completed to our requirement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wrong amount paid%2E</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Payment_Method__c</picklist>
+            <values>
+                <fullName>ACH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CCD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CHK</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reconciliation_Type__c</picklist>
+            <values>
+                <fullName>Automatically</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manual</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Source__c</picklist>
+            <values>
+                <fullName>Ad-Hoc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Billing Statement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Ad-Hoc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RD Transaction</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>ACH Authorized</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ACH Initiated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ACH Returned</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Check Initiated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Check Printed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Attempted Payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Manual</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Paid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Refunded</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deactivated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Director Approval Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dispute%2FRefund Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dispute%2FRefund Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dispute%2FRefund Requested</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Edit - Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Expired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manager Approval Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Payment Issued</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Deposit Reconciliation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Reconciliation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unmark for Payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Void</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Customer Refund</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer Refund</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Third Party</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>NA_Auto_Refund</fullName>
+        <active>true</active>
+        <description>Record type for NA Auto-Refund</description>
+        <label>NA Auto-Refund</label>
+        <picklistValues>
+            <picklist>Card_Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deactivated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Expired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reconciled</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Deposit_Reason__c</picklist>
+            <values>
+                <fullName>Claim has been over paid%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit Card Refund</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Duplicate claim payment%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invalid payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid in error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Payment was made payable to the wrong payee%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shop refunded claim payment - work not completed to our requirement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wrong amount paid%2E</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Payment_Method__c</picklist>
+            <values>
+                <fullName>ACH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CCD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CHK</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reconciliation_Type__c</picklist>
+            <values>
+                <fullName>Automatically</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manual</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Source__c</picklist>
+            <values>
+                <fullName>Ad-Hoc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Ad-Hoc</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>ACH Authorized</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ACH Initiated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ACH Returned</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Check Initiated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Check Printed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Attempted Payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Manual</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Paid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Refunded</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deactivated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dispute%2FRefund Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dispute%2FRefund Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dispute%2FRefund Requested</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Edit - Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Expired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Payment Issued</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Deposit Reconciliation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Reconciliation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unmark for Payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Void</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Customer Refund</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer Refund</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Third Party</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>PPM</fullName>
+        <active>true</active>
+        <description>Record type for PPM</description>
+        <label>PPM</label>
+        <picklistValues>
+            <picklist>Card_Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deactivated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Expired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reconciled</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Deposit_Reason__c</picklist>
+            <values>
+                <fullName>Claim has been over paid%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit Card Refund</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Duplicate claim payment%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invalid payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid in error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Payment was made payable to the wrong payee%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shop refunded claim payment - work not completed to our requirement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wrong amount paid%2E</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Payment_Method__c</picklist>
+            <values>
+                <fullName>ACH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CCD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CHK</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reconciliation_Type__c</picklist>
+            <values>
+                <fullName>Automatically</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manual</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Source__c</picklist>
+            <values>
+                <fullName>Ad-Hoc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Ad-Hoc</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>ACH Authorized</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ACH Initiated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ACH Returned</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Check Initiated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Check Printed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Attempted Payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Manual</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Paid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Refunded</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deactivated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dispute%2FRefund Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dispute%2FRefund Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dispute%2FRefund Requested</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Edit - Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Expired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Payment Issued</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Deposit Reconciliation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Reconciliation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unmark for Payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Void</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Customer Refund</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer Refund</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Third Party</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>US_Auto</fullName>
+        <active>true</active>
+        <description>Record type for US Auto</description>
+        <label>US Auto</label>
+        <picklistValues>
+            <picklist>Card_Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deactivated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Expired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reconciled</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Deposit_Reason__c</picklist>
+            <values>
+                <fullName>Claim has been over paid%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit Card Refund</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Duplicate claim payment%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invalid payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paid in error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Payment was made payable to the wrong payee%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shop refunded claim payment - work not completed to our requirement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wrong amount paid%2E</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Payment_Method__c</picklist>
+            <values>
+                <fullName>ACH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CCD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CHK</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reconciliation_Type__c</picklist>
+            <values>
+                <fullName>Automatically</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manual</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Source__c</picklist>
+            <values>
+                <fullName>Ad-Hoc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Ad-Hoc</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>ACH Authorized</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ACH Initiated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ACH Returned</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Check Printed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Attempted Payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Manual</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Paid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed - Refunded</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deactivated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dispute%2FRefund Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dispute%2FRefund Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dispute%2FRefund Requested</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Edit - Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Expired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Payment Issued</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Deposit Reconciliation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Reconciliation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unmark for Payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Void</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Customer Refund</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer Refund</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Third Party</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <listViewButtons>Reconcile_List</listViewButtons>
+        <listViewButtons>Reject_Records</listViewButtons>
+        <listViewButtons>Approve_List</listViewButtons>
+        <listViewButtons>Update_Merchant_Name</listViewButtons>
+        <searchResultsCustomButtons>Update_Merchant_Name</searchResultsCustomButtons>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>User_cannot_update_payment_method</fullName>
+        <active>true</active>
+        <description>Login user must be system admin to change the payment method of the record.</description>
+        <errorConditionFormula>AND(
+   $Profile.Name &lt;&gt; &apos;System Administrator&apos;,
+   NOT(ISPICKVAL(Status__c , &apos;Draft&apos;)),
+   ISCHANGED(Payment_Method__c)
+)</errorConditionFormula>
+        <errorMessage>You are not allowed to change the payment method of this payment record.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Approve_Detail</fullName>
+        <availability>online</availability>
+        <description>Approve button for detail page</description>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Approve</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/48.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/48.0/apex.js&quot;)}
+var paymentIdList = [&apos;{!Payment__c.Id}&apos;];
+var paymentResult = sforce.connection.query(
+    &quot;SELECT Id, Name, Status__c, RecordType.DeveloperName, Client__r.Account_Email__c, Payment_Method__c &quot; +
+    &quot;FROM Payment__c &quot; +
+    &quot;WHERE Id = &apos;{!Payment__c.Id}&apos;&quot;);
+
+if(paymentResult != null &amp;&amp; paymentResult.getArray(&quot;records&quot;) != null &amp;&amp; 
+    paymentResult.getArray(&quot;records&quot;)[0].RecordType.DeveloperName == &apos;NA_Auto_Client_Fee_Payee&apos;) {
+    var companyName = &apos;{!$Setup.FF_Company_Name__c.NA_BP_Auto_Company_Name__c}&apos;;
+
+    var listOfPermissionSetName = [];
+    listOfPermissionSetName.push(&apos;\&apos;Client_Fee_Payee_Check_Approval\&apos;&apos;);
+
+    var permissionSetResult = sforce.connection.query(
+        &quot;SELECT Id &quot; +
+        &quot;FROM PermissionSetAssignment &quot; +
+        &quot;WHERE PermissionSet.name IN (&quot;+listOfPermissionSetName+&quot;)&quot; +
+        &quot;AND AssigneeId = &apos;{!$User.Id}&apos;&quot;);
+
+    var permissionSetAssignment = permissionSetResult.getArray(&quot;records&quot;);
+    if(permissionSetAssignment.length &gt; 0) {
+        if(&apos;{!Payment__c.Payment_Method__c}&apos; == &apos;CHK&apos; || &apos;{!Payment__c.Payment_Method__c}&apos; == &apos;ACH&apos;) {
+            if((paymentResult.getArray(&quot;records&quot;)[0].Client__r.Account_Email__c == null || 
+                paymentResult.getArray(&quot;records&quot;)[0].Client__r.Account_Email__c == &apos;undefined&apos; || 
+                paymentResult.getArray(&quot;records&quot;)[0].Client__r.Account_Email__c == &apos;&apos;) &amp;&amp;
+                paymentResult.getArray(&quot;records&quot;)[0].Payment_Method__c == &apos;ACH&apos;) {
+                var emailAlertMessage = &quot;{!$Label.Email_Is_Required_For_ACH_Payment}&quot;;
+                emailAlertMessage = emailAlertMessage.replace(&apos;{0}&apos;, paymentResult.getArray(&quot;records&quot;)[0].Name);
+                alert(emailAlertMessage);
+            } else {
+                if(&apos;{!Payment__c.Status__c}&apos; == &apos;Draft&apos;) {
+                    var isConfirm = confirm(&apos;{!$Label.Are_you_sure_you_want_to_approve_Payment}&apos;);
+                    if (isConfirm == true) {
+                        document.location.reload(true);
+                        sforce.apex.execute(&quot;InvokePaymentApprovalRejection&quot;, 
+                            &quot;invokePaymentApproval&quot;, {paymentIdList:paymentIdList, companyName:companyName});
+                    } else {
+                        document.location.reload(true);
+                    }
+                } else {
+                    alert(&quot;{!$Label.Reject_Payments_With_Draft_Status}&quot;);
+                }
+            }
+        } else {
+            alert(&quot;You can only reject payment with ACH or CHK payment method.&quot;);
+        }
+    } else {
+        alert(&quot;{!$Label.You_are_not_authorized_user_to_reject_the_payments}&quot;);
+    }
+    document.location.reload(true);
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Approve_List</fullName>
+        <availability>online</availability>
+        <description>Approve button for list view</description>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Approve</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/48.0/connection.js&quot;)}
+            {!REQUIRESCRIPT(&quot;/soap/ajax/48.0/apex.js&quot;)}
+var paymentIdList = {!GETRECORDIDS(&quot;Payment__c&quot;)};
+var btnService = document.getElementsByName(&quot;Approve_List&quot;);
+btnService.disabled=true;
+if (paymentIdList == null || paymentIdList[0] == null) {
+    alert(&quot;{!$Label.Please_select_at_least_one_record}&quot;);
+    btnService.disabled=false;
+} else {
+var inClause = &apos;(&apos;;
+paymentIdList.forEach(
+function(recId){
+inClause += &quot;&apos;&quot; + recId + &quot;&apos;,&quot;;
+}
+);
+inClause = inClause.slice(0, -1) + &quot;)&quot;;
+var paymentResult = sforce.connection.query(
+&quot;SELECT Id, Name, Status__c, RecordType.DeveloperName, Client__r.Account_Email__c, Payment_Method__c &quot; +
+&quot;FROM Payment__c &quot; +
+&quot;WHERE Id IN &quot; + inClause);
+var paymentRecords = paymentResult.getArray(&quot;records&quot;);
+var processRecords = true;
+if(paymentRecords != null &amp;&amp; paymentRecords.length &gt; 0) {
+    var paymentNames = [];
+    for(var i = 0; i &lt; paymentRecords.length; i++) {
+        if(paymentRecords[i].RecordType.DeveloperName != &apos;NA_Auto_Client_Fee_Payee&apos;) {
+            processRecords = false;
+            btnService.disabled=false;
+            break;
+        } else if((paymentRecords[i].Client__r.Account_Email__c == null || 
+            paymentRecords[i].Client__r.Account_Email__c == &apos;undefined&apos; || 
+            paymentRecords[i].Client__r.Account_Email__c == &apos;&apos;) &amp;&amp;
+            paymentRecords[i].Payment_Method__c == &apos;ACH&apos;) {
+            paymentNames.push(paymentRecords[i].Name);
+            btnService.disabled=false;
+            processRecords = false;
+        }
+    }
+    if(paymentNames.length){
+        var emailAlertMessage = &quot;{!$Label.Email_Is_Required_For_ACH_Payment}&quot;;
+        emailAlertMessage = emailAlertMessage.replace(&apos;{0}&apos;, paymentNames.join(&apos;, &apos;));
+        alert(emailAlertMessage);
+        btnService.disabled=false;
+    }
+}
+if(processRecords) {
+    var listOfPermissionSetName = [];
+    listOfPermissionSetName.push(&apos;\&apos;Client_Fee_Payee_Check_Approval\&apos;&apos;);
+
+    var permissionSetResult = sforce.connection.query(
+    &quot;SELECT Id &quot; +
+    &quot;FROM PermissionSetAssignment &quot; +
+    &quot;WHERE PermissionSet.name IN (&quot;+listOfPermissionSetName+&quot;)&quot; +
+    &quot;AND AssigneeId = &apos;{!$User.Id}&apos;&quot;);
+    var permissionSetAssignment = permissionSetResult.getArray(&quot;records&quot;);
+    if(permissionSetAssignment.length &gt; 0) {
+        var isConfirm = confirm(&apos;{!$Label.Are_you_sure_you_want_to_approve_Payment}&apos;);
+        if (isConfirm == true) {
+            var result = sforce.apex.execute(&quot;InvokePaymentApprovalRejection&quot;, 
+                &quot;invokePaymentApproval&quot;, {paymentIdList:paymentIdList});
+            result = JSON.parse(result);
+            if(result.status !== &apos;200&apos;){
+               alert(result.error);
+               btnService.disabled=false;
+            } else  {
+               document.location.reload(true);
+               btnService.disabled=false;
+            } 
+        } else {
+            btnService.disabled=false;
+        }
+    } else {
+        alert(&quot;{!$Label.You_are_not_authorized_user_to_reject_the_payments}&quot;);
+        btnService.disabled=false;
+    }
+}
+ document.location.reload(true);
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Edit_CF</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Edit</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/48.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/48.0/apex.js&quot;)}
+var listOfPermissionSetName = [];
+listOfPermissionSetName.push(&apos;\&apos;Client_Fee_Payee_Check_Approval\&apos;&apos;);
+
+var paymentResult = sforce.connection.query(
+&quot;SELECT Id, Status__c, RecordType.DeveloperName &quot; +
+&quot;FROM Payment__c &quot; +
+&quot;WHERE Id = &apos;{!Payment__c.Id}&apos;&quot;);
+
+var permissionSetResult = sforce.connection.query(
+&quot;SELECT Id &quot; +
+&quot;FROM PermissionSetAssignment &quot; +
+&quot;WHERE PermissionSet.name IN (&quot;+listOfPermissionSetName+&quot;)&quot; +
+&quot;AND AssigneeId = &apos;{!$User.Id}&apos;&quot;);
+
+var permissionSetAssignment = permissionSetResult.getArray(&quot;records&quot;);
+if(permissionSetAssignment.length ==0 ) {
+alert(&quot;{!$Label.Insufficient_Privileges}&quot;);
+}else {
+if(paymentResult != null &amp;&amp; paymentResult.getArray(&quot;records&quot;) != null) {
+var url = window.location.href;
+url = url +&apos;/e&apos;;
+window.location.assign(url);
+}
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Re_Try</fullName>
+        <availability>online</availability>
+        <description>Retry for failed payments</description>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Re-Try</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/48.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/48.0/apex.js&quot;)}
+var paymentResult = sforce.connection.query(
+&quot;SELECT Id, Status__c, RecordType.DeveloperName &quot; +
+&quot;FROM Payment__c &quot; +
+&quot;WHERE Id = &apos;{!Payment__c.Id}&apos;&quot;);
+var listOfPermissionSetName = [];
+listOfPermissionSetName.push(&apos;\&apos;Client_Fee_Payee_Check_Approval\&apos;&apos;);
+var permissionSetResult = sforce.connection.query(
+&quot;SELECT Id &quot; +
+&quot;FROM PermissionSetAssignment &quot; +
+&quot;WHERE PermissionSet.name IN (&quot;+listOfPermissionSetName+&quot;)&quot; +
+&quot;AND AssigneeId = &apos;{!$User.Id}&apos;&quot;);
+var permissionSetAssignment = permissionSetResult.getArray(&quot;records&quot;);
+
+if(paymentResult != null &amp;&amp; paymentResult.getArray(&quot;records&quot;) != null) {
+    if(paymentResult.getArray(&quot;records&quot;)[0].RecordType.DeveloperName == &apos;NA_Auto_Client_Fee_Payee&apos; &amp;&amp; &apos;{!Payment__c.Status__c}&apos; == &apos;In Process&apos;) {
+        if(permissionSetAssignment.length ==0 ) {
+            alert(&quot;{!$Label.Insufficient_Privileges}&quot;);
+        } else {
+            if(&apos;{!Payment__c.Error_Code__c}&apos; == &apos;&apos; &amp;&amp;  &apos;{!Payment__c.Error_Description__c}&apos; == &apos;&apos;){
+                alert(&quot;{!$Label.Error_Code_and_Error_Description}&quot;);
+            } else {
+                var payment = new sforce.SObject(&quot;Payment__c&quot;);
+                payment.Id = paymentResult.getArray(&quot;records&quot;)[0].Id;
+                payment.Error_Code__c = null;
+                payment.Error_Description__c = null;
+                if(&apos;{!Payment__c.Payment_Method__c}&apos; == &apos;CHK&apos;) {
+                   payment.Status__c = &apos;Check Initiated&apos;;
+                }
+            	if (&apos;{!Payment__c.Payment_Method__c}&apos; == &apos;ACH&apos;) {
+                   payment.Status__c = &apos;ACH Authorized&apos;;
+                }
+                var result = sforce.connection.update([payment]);
+                if(result[0].getBoolean(&quot;success&quot;))
+                {
+                    alert(&quot;{!$Label.Payment_updated_successfully}&quot;); 
+                    window.location.reload();
+                } else {
+                    alert(result);
+                }
+            }
+        }
+    } else {
+        alert(&quot;{!$Label.Payment_should_be_eligible_for_retry}&quot;);
+    }
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Reconcile_List</fullName>
+        <availability>online</availability>
+        <description>Reconcile button for list view to reconcile the payment records manually</description>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Reconcile</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/37.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/37.0/apex.js&quot;)}
+
+var records = {!GETRECORDIDS($ObjectType.Payment__c)};
+var processRecords = true;
+if (records[0] == null) {
+alert(&quot;{!$Label.Please_select_at_least_one_record}&quot;);
+} else {
+var payment = &quot;SELECT Status__c, Group_Payment__c, Case_Payee__c, Payment_Method__c FROM Payment__c WHERE Id in &quot; +
+&quot;(&apos;&quot; + records.toString().replace(/,/g, &quot;&apos;,&apos;&quot;) + &quot;&apos;)&quot;;
+var result = sforce.connection.query(payment);
+var statusRecord = result.getArray(&quot;records&quot;);
+if(statusRecord != null) {
+for(var i in statusRecord) {
+if(statusRecord[i].Payment_Method__c != &apos;CCD&apos;) {
+processRecords = false;
+alert(&quot;{!$Label.Error_Only_CCD_Payment_Records_Can_Be_Reconciled}&quot;);
+break;
+}
+if(statusRecord[i].Group_Payment__c != null) {
+processRecords = false;
+var message = &quot;{!$Label.Error_One_Or_More_Records_Are_Related_To_Group_Payment}&quot;;
+alert(message.replace(/Credit Card Reconciliation/g, &apos;Payment&apos;));
+break;
+}
+if(statusRecord[i].Status__c != &quot;{!$Label.Pending_Reconciliation}&quot; &amp;&amp; statusRecord[i].Status__c != &quot;{!$Label.Pending_Deposit_Reconciliation}&quot;) {
+processRecords = false;
+alert(&quot;{!$Label.You_can_only_reconcile_an_active_payment_record}&quot;);
+break;
+}
+}
+}
+
+if(processRecords) {
+if({!$Setup.USAutoCCReconciliationProcess__c.Is_PaymentRecon_Batch_Running__c} == true) {
+var message = &quot;{!$Label.Text_A_credit_card_reconciliation_process_is_currently_running}&quot;;
+alert(message.replace(/credit card reconciliation/g, &apos;Payment Reconciliation&apos;));
+}
+else {
+var isConfirm = confirm(&quot;{!$Label.Text_Are_you_sure_you_want_to_reconcile_these_transactions}&quot;);
+if(isConfirm == true) {
+var message = &quot;{!$Label.Text_You_will_be_notified_via_email_when_credit_card_recon_process_is_completed}&quot;;
+alert(message.replace(/credit card reconciliation/g, &apos;Payment Reconciliation&apos;));
+sforce.apex.execute(&quot;InvokeManualCCReconTransactionBatch&quot;,&quot;invokeManualReconcilePaymentBatch&quot;,
+{paymentIds:records.join()});
+document.location.reload(true);
+}
+}
+}
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Reject</fullName>
+        <availability>online</availability>
+        <description>Reject Button</description>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Reject</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/48.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/48.0/apex.js&quot;)}
+var paymentIdList = [&apos;{!Payment__c.Id}&apos;];
+var paymentResult = sforce.connection.query(
+&quot;SELECT Id, Status__c, RecordType.DeveloperName &quot; +
+&quot;FROM Payment__c &quot; +
+&quot;WHERE Id = &apos;{!Payment__c.Id}&apos;&quot;);
+
+if(paymentResult != null &amp;&amp; paymentResult.getArray(&quot;records&quot;) != null &amp;&amp; 
+paymentResult.getArray(&quot;records&quot;)[0].RecordType.DeveloperName == &apos;NA_Auto_Client_Fee_Payee&apos;) {
+var companyName = &apos;{!$Setup.FF_Company_Name__c.NA_BP_Auto_Company_Name__c}&apos;;
+
+var listOfPermissionSetName = [];
+listOfPermissionSetName.push(&apos;\&apos;Client_Fee_Payee_Check_Approval\&apos;&apos;);
+
+var permissionSetResult = sforce.connection.query(
+&quot;SELECT Id &quot; +
+&quot;FROM PermissionSetAssignment &quot; +
+&quot;WHERE PermissionSet.name IN (&quot;+listOfPermissionSetName+&quot;)&quot; +
+&quot;AND AssigneeId = &apos;{!$User.Id}&apos;&quot;);
+
+var permissionSetAssignment = permissionSetResult.getArray(&quot;records&quot;);
+if(permissionSetAssignment.length &gt; 0) {
+    if(&apos;{!Payment__c.Payment_Method__c}&apos; == &apos;CHK&apos; || &apos;{!Payment__c.Payment_Method__c}&apos; == &apos;ACH&apos;) {
+        if(&apos;{!Payment__c.Status__c}&apos; == &apos;Draft&apos;) {
+            var isConfirm = confirm(&apos;{!$Label.Are_you_sure_you_want_to_reject_Payment}&apos;);
+            if (isConfirm == true) {
+                document.location.reload(true);
+                sforce.apex.execute(&quot;InvokePaymentApprovalRejection&quot;, 
+                    &quot;invokePaymentRejection&quot;, {paymentIdList:paymentIdList, companyName:companyName});
+            } else {
+                document.location.reload(true);
+            }
+        } else {
+            alert(&quot;{!$Label.Reject_Payments_With_Draft_Status}&quot;);
+        }
+    } else {
+        alert(&quot;You can only reject payment with ACH or CHK payment method.&quot;);
+    }
+} else {
+    alert(&quot;{!$Label.You_are_not_authorized_user_to_reject_the_payments}&quot;);
+}
+document.location.reload(true);
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Reject_Records</fullName>
+        <availability>online</availability>
+        <description>Reject button for list view</description>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Reject</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/48.0/connection.js&quot;)}
+            {!REQUIRESCRIPT(&quot;/soap/ajax/48.0/apex.js&quot;)}
+var paymentIdList = {!GETRECORDIDS(&quot;Payment__c&quot;)};
+var btnService = document.getElementsByName(&quot;Reject_Records&quot;);
+btnService.disabled=true;
+if (paymentIdList == null || paymentIdList[0] == null) {
+    alert(&quot;{!$Label.Please_select_at_least_one_record}&quot;);
+    btnService.disabled=false;
+} else {
+var inClause = &apos;(&apos;;
+paymentIdList.forEach(
+function(recId){
+inClause += &quot;&apos;&quot; + recId + &quot;&apos;,&quot;;
+}
+);
+inClause = inClause.slice(0, -1) + &quot;)&quot;;
+var paymentResult = sforce.connection.query(
+&quot;SELECT Id, Status__c, RecordType.DeveloperName &quot; +
+&quot;FROM Payment__c &quot; +
+&quot;WHERE Id IN &quot; + inClause);
+var paymentRecords = paymentResult.getArray(&quot;records&quot;);
+var processRecords = true;
+if(paymentRecords != null &amp;&amp; paymentRecords.length &gt; 0) {
+    paymentRecords.forEach(
+        function(payment){
+            if(payment.RecordType.DeveloperName != &apos;NA_Auto_Client_Fee_Payee&apos;) {
+                processRecords = false;
+            }
+        });
+}
+if(processRecords) {
+    var listOfPermissionSetName = [];
+    listOfPermissionSetName.push(&apos;\&apos;Client_Fee_Payee_Check_Approval\&apos;&apos;);
+
+    var permissionSetResult = sforce.connection.query(
+    &quot;SELECT Id &quot; +
+    &quot;FROM PermissionSetAssignment &quot; +
+    &quot;WHERE PermissionSet.name IN (&quot;+listOfPermissionSetName+&quot;)&quot; +
+    &quot;AND AssigneeId = &apos;{!$User.Id}&apos;&quot;);
+
+    var permissionSetAssignment = permissionSetResult.getArray(&quot;records&quot;);
+    if(permissionSetAssignment.length &gt; 0) {
+        var isConfirm = confirm(&apos;{!$Label.Are_you_sure_you_want_to_reject_Payment}&apos;);
+        if (isConfirm == true) {
+            var result = sforce.apex.execute(&quot;InvokePaymentApprovalRejection&quot;, 
+                &quot;invokePaymentRejection&quot;, {paymentIdList:paymentIdList});
+            result = JSON.parse(result);
+            if(result.status !== &apos;200&apos;){
+                alert(result.error);
+            }
+            btnService.disabled=false;
+            document.location.reload(true);
+        } else {
+            btnService.disabled=false;
+            document.location.reload(true);
+        }
+    } else {
+        alert(&quot;{!$Label.You_are_not_authorized_user_to_reject_the_payments}&quot;);
+        btnService.disabled=false;
+    }
+}
+document.location.reload(true);
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Void</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Void</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+		<url>{!REQUIRESCRIPT(&quot;/soap/ajax/48.0/connection.js&quot;)}
+	{!REQUIRESCRIPT(&quot;/soap/ajax/48.0/apex.js&quot;)}
+	var listOfPermissionSetName = [];
+	listOfPermissionSetName.push(&apos;\&apos;Client_Fee_Payee_Maintenance\&apos;&apos;);
+	listOfPermissionSetName.push(&apos;\&apos;Client_Fee_Payee_Check_Approval\&apos;&apos;);
+
+	var paymentResult = sforce.connection.query(
+	&quot;SELECT Id, Status__c, RecordType.DeveloperName &quot; +
+	&quot;FROM Payment__c &quot; +
+	&quot;WHERE Id = &apos;{!Payment__c.Id}&apos;&quot;);
+
+	var permissionSetResult = sforce.connection.query(
+		&quot;SELECT Id &quot; +
+		&quot;FROM PermissionSetAssignment &quot; +
+		&quot;WHERE PermissionSet.name IN (&quot;+listOfPermissionSetName+&quot;)&quot; +
+		&quot;AND AssigneeId = &apos;{!$User.Id}&apos;&quot;);
+
+	var permissionSetAssignment = permissionSetResult.getArray(&quot;records&quot;);
+	if(permissionSetAssignment.length ==0 ) {
+	alert(&quot;{!$Label.Insufficient_Privileges}&quot;);
+	} else {
+	if(paymentResult != null &amp;&amp; paymentResult.getArray(&quot;records&quot;) != null) {
+		if(paymentResult.getArray(&quot;records&quot;)[0].RecordType.DeveloperName == &apos;NA_Auto_Client_Fee_Payee&apos;) {
+			if(&apos;{!Payment__c.Status__c}&apos; == &apos;Void&apos;){
+				alert(&quot;{!$Label.Payment_Voided}&quot;);
+			} else {
+				if(&apos;{!Payment__c.Date_Cashed__c}&apos;){
+					alert(&quot;{!$Label.Payment_can_not_be_voided}&quot;);
+				} else {
+					if(&apos;{!Payment__c.Status__c}&apos; == &apos;Check Printed&apos; || &apos;{!Payment__c.Status__c}&apos; == &apos;Force Expired - Check Printed&apos; || &apos;{!Payment__c.Status__c}&apos; == &apos;ACH Initiated&apos;){
+						var isConfirm = confirm(&apos;{!$Label.Payment_voided_at_bank}&apos;);
+						if (isConfirm) {
+							var leftPosition, topPosition;
+							var width = 600;
+							var height= 400;
+							leftPosition = (window.screen.width / 2) - ((width / 2) + 10);
+							topPosition = (window.screen.height / 2) - ((height / 2) + 50);
+							window.open(&apos;/apex/VoidJPMCPayment?scontrolCaching=1&amp;id={!Payment__c.Id}&apos;, &quot;Window2&quot;, &quot;status=no,height=&quot; + height + &quot;,width=&quot; + width + &quot;,resizable=yes,left=&quot; + leftPosition + &quot;,top=&quot; + topPosition + &quot;,screenX=&quot; + leftPosition + &quot;,screenY=&quot; + topPosition + &quot;,toolbar=no,menubar=no,scrollbars=no,location=no,directories=no&quot;);
+						}
+					} else {
+						alert(&quot;{!$Label.Inappropriate_payment_status}&quot;);
+					}
+				}
+			}
+		} else {
+			alert(&quot;{!$Label.Client_Fee_payment_can_be_voided}&quot;);
+		}
+	}
+	}</url>
+    </webLinks>
+</CustomObject>
