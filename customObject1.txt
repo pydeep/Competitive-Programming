@@ -3891,4 +3891,108 @@ document.location.reload(true);
 	}
 	}</url>
     </webLinks>
+    <WebLink>
+		<fullName>Update_Merchant_Name</fullName>
+		<availability>online</availability>
+		<displayType>massActionButton</displayType>
+		<linkType>javascript</linkType>
+		<masterLabel>Update Merchant Name</masterLabel>
+		<openType>onClickJavaScript</openType>
+		<protected>false</protected>
+		<requireRowSelection>true</requireRowSelection>
+		<url>{!REQUIRESCRIPT(&apos;/soap/ajax/48.0/connection.js&apos;)}
+	{!REQUIRESCRIPT(&apos;/soap/ajax/48.0/apex.js&apos;)}
+
+	var records = {!GETRECORDIDS($ObjectType.Payment__c)};
+	var result = sforce.connection.query(&quot;SELECT Id FROM PermissionSetAssignment WHERE PermissionSet.Name IN (&apos;Upper_Level_Payment_Processor&apos;, &apos;BP_Credit_Card_Recon&apos;) AND AssigneeId = &apos;{!$User.Id}&apos;&quot;);
+	if(records.length&lt;1){
+		alert(&quot;{!$Label.Payment_Record_Select}&quot;);
+	}
+	else if(result.size==1) {	
+		var selectedIds = &apos;&apos;; 
+		var clientUpdate = [];
+		for(var i=0;i&lt;records.length; i++) {
+			selectedIds += &quot;&apos;&quot; + records[i] + &quot;&apos;,&quot;;
+		}
+		selectedIds = selectedIds.substring(0,selectedIds.length - 1);
+		function cursorWait() {
+			document.body.style.cursor = &apos;wait&apos;;
+		}
+
+		function cursorClear() {
+			document.body.style.cursor = &apos;default&apos;;
+		}
+
+		var strQuery = &quot;Select Id, Merchant_Name__c, Client__r.Pay_Claims_to_Parent__c, Client__r.Parent.CCD_Merchant_Name__c, Client__r.ParentId, Client__c, Client__r.Name, Client__r.CCD_Merchant_Name__c From Payment__c Where Id In(&quot;+selectedIds+&quot;)&quot;;
+		var queryRecord = sforce.connection.query(strQuery);
+		var sureForSelectedRecords = confirm(&quot;{!$Label.No_Of_Selected_Payment_Records}&quot;+&apos; &apos;+records.length+&apos; &apos;+&quot;{!$Label.Confirm_For_Selected_Payment_Records}&quot;);
+
+		if(sureForSelectedRecords) {
+			try{
+				cursorWait();
+				if(queryRecord.size==1) {
+					if(queryRecord.records.Merchant_Name__c!=null &amp;&amp; queryRecord.records.Client__c!=null) {
+						var payClaimsToParentIsCheck = (queryRecord.records.Client__r.Pay_Claims_to_Parent__c===&apos;true&apos;);
+						if(payClaimsToParentIsCheck) {
+							var acc = new sforce.SObject(&quot;Account&quot;);
+							acc.Id = queryRecord.records.Client__r.ParentId;
+							acc.CCD_Merchant_Name__c = queryRecord.records.Merchant_Name__c;
+							clientUpdate.push(acc);	
+						}
+						else {
+							var acc = new sforce.SObject(&quot;Account&quot;);
+							acc.Id = queryRecord.records.Client__c;
+							acc.CCD_Merchant_Name__c = queryRecord.records.Merchant_Name__c;
+							clientUpdate.push(acc);		
+						}
+					}
+					else if(queryRecord.records.Merchant_Name__c===null || queryRecord.records.Merchant_Name__c===undefined ) {
+						cursorClear();
+						alert(&quot;{!$Label.Payment_Record_With_Merchant_Name}&quot;);	
+					}
+				}
+				else {
+					for(var i=0; i&lt;queryRecord.size; i++) {
+						if(queryRecord.records[i].Merchant_Name__c!=null &amp;&amp; queryRecord.records[i].Client__c!=null) {
+							var payClaimsToParentIsCheck = (queryRecord.records[i].Client__r.Pay_Claims_to_Parent__c===&apos;true&apos;);
+							if(payClaimsToParentIsCheck) {
+								var acc = new sforce.SObject(&quot;Account&quot;);
+								acc.Id = queryRecord.records[i].Client__r.ParentId
+								acc.CCD_Merchant_Name__c = queryRecord.records[i].Merchant_Name__c;
+								clientUpdate.push(acc);	
+							}
+							else {
+								var acc = new sforce.SObject(&quot;Account&quot;);
+								acc.Id = queryRecord.records[i].Client__c;
+								acc.CCD_Merchant_Name__c = queryRecord.records[i].Merchant_Name__c;
+								clientUpdate.push(acc);		
+							}
+						}
+						else if(queryRecord.records[i].Merchant_Name__c===null || queryRecord.records[i].Merchant_Name__c===undefined) {
+							cursorClear();
+							alert(&quot;{!$Label.Payment_Record_With_Merchant_Name}&quot;);
+							clientUpdate=[];
+							break;
+						}
+					}
+				}
+				if(clientUpdate.length&gt;0) {
+					var accResult = sforce.connection.update(clientUpdate);
+					cursorClear();
+					window.location.reload();
+				}   
+				else {
+					cursorClear();
+				}
+			}
+			catch(e) {
+				cursorClear();
+				alert(e);
+			}   
+		}
+	}
+	else{
+		alert(&quot;{!$Label.Insufficient_privileges_to_Update_the_CCD_Merchant_Name}&quot;);
+	}</url>
+	</WebLink>
 </CustomObject>
