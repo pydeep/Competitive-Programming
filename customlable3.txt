@@ -24,7 +24,7 @@
 		<value>You have insufficient privileges to update the CCD Merchant Name</value>
 	</labels>
 	<labels>
-		<fullName>No_Of_Selected_Payment_Records</fullName>
+	<fullName>No_Of_Selected_Payment_Records</fullName>
 		<language>en_US</language>
 		<protected>false</protected>
 		<categories>Text</categories>
