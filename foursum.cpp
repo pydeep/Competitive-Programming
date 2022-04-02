@@ -12,9 +12,7 @@ vector<vector<int>> foursum(vector<int> &nums, int target) {
 			string s = to_string(nums[i])+","+to_string(nums[j])+","+to_string(nums[low])+","+to_string(nums[high]);
 			while(low<high) {	
 				if((nums[i]+nums[j]+nums[low]+nums[high])==target) {
-					
-					
-					 resdup.insert({nums[i], nums[j], nums[low], nums[high]});
+					resdup.insert({nums[i], nums[j], nums[low], nums[high]});
 					// while(low<high) if((v1[i]+v1[j]+v1[low]+v1[high])<0) low++; 
 				 //    while(low<high) if((v1[i]+v1[j]+v1[low]+v1[high])>0) high--;
 				    low++, high--;
@@ -38,8 +36,8 @@ vector<vector<int>> foursum(vector<int> &nums, int target) {
 }
 
 int main() {
-	vector<int> v1 = {-2,-1,-1,1,1,2,2};
-	int target = 0;
+	vector<int> v1 = {-2,-1,-1,1,1,2,2,8};
+	int target_check = 0;
 	vector<vector<int>> res = foursum(v1, target);
 	cout<<"\n";
 	for(auto &resfor : res) {
