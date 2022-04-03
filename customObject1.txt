@@ -93,7 +93,7 @@
     <actionOverrides>
         <actionName>New</actionName>
         <formFactor>Large</formFactor>
-        <type>Default</type>
+        <type>Default123</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>New</actionName>
